@@ -1,0 +1,17 @@
+{
+  "name": "lerna-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "client": "yarn workspace @lerna-monorepo/client",
+    "server": "yarn workspace @lerna-monorepo/server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/angular": "^17.2.8",
+    "@nx/nest": "^17.2.8",
+    "lerna": "^8.0.1"
+  }
+}
