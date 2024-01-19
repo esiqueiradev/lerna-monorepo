@@ -13,7 +13,6 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
-    "@nx/angular": "^17.2.8",
     "@nx/nest": "^17.2.8",
     "husky": "^8.0.3",
     "lerna": "^8.0.1",
