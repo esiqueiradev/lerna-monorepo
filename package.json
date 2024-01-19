@@ -6,7 +6,8 @@
   ],
   "scripts": {
     "client": "yarn workspace @lerna-monorepo/client",
-    "server": "yarn workspace @lerna-monorepo/server"
+    "server": "yarn workspace @lerna-monorepo/server",
+    "sort": "lerna exec -- yarn sort-package-json"
   },
   "dependencies": {},
   "devDependencies": {
@@ -15,6 +16,8 @@
     "@nx/angular": "^17.2.8",
     "@nx/nest": "^17.2.8",
     "husky": "^8.0.3",
-    "lerna": "^8.0.1"
+    "lerna": "^8.0.1",
+    "nx": "^17.2.8",
+    "sort-package-json": "^2.6.0"
   }
 }
